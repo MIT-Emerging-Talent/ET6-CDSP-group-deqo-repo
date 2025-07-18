@@ -1,6 +1,7 @@
 # Team
 
 ## **Emerging Talent 6 - Collaborative Data Science Project (CDSP)**
+
 This repository provides a clean, reproducible structure for a team-based data
 science workflow. It is designed to support smooth collaboration, regular
 documentation, and reproducibility from day one through final presentation.
