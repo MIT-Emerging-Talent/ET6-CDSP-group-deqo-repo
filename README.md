@@ -1,18 +1,19 @@
 # Team
 
-**Emerging Talent 6 - Collaborative Data Science Project (CDSP)**
-> This repository provides a clean, reproducible structure for a team-based data
+## **Emerging Talent 6 - Collaborative Data Science Project (CDSP)**
+This repository provides a clean, reproducible structure for a team-based data
 science workflow. It is designed to support smooth collaboration, regular
 documentation, and reproducibility from day one through final presentation.
 
 ---
 
-##  Team Introduction
+## Team Introduction
 
 Welcome! We are a team of aspiring data scientists participating in the
 **ET6 CDSP**.
 
 **Team Members:**
+
 - [Name 1] – [Role / Background]
 - [Name 2] – [Role / Background]
 - [Name 3] – [Role / Background]
@@ -27,6 +28,7 @@ Welcome! We are a team of aspiring data scientists participating in the
 We are designing a system for Somali health workers to enter daily patient data,
 which is then processed into real-time maps and dashboards.
 This system aims to:
+
 - Detect outbreaks early
 - Track chronic disease trends
 - Support data-informed decision-making for communities and government
