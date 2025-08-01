@@ -25,7 +25,7 @@ and response times
 - Use publicly available/ethically sourced data
 - Anonymize sensitive/personal health data
 - Scope manageable within project timelines
-- Our partner was supposed to provide clinic data, but it was not digitized and
+- Our project partner intended to provide clinic data, but it was not digitized and
   no details were shared
 - As a result, we chose to rely on publicly available datasets instead
 
@@ -63,3 +63,9 @@ open issues, then set up pull requests.
 - Avoid bias in data selection and analysis
 - Clearly acknowledge data sources
 - Transparent about limitations/uncertainties
+
+---
+…So, these are the constraints shaping our journey. Challenges? Yes. Setbacks?
+A few. But with a clear scope and a bit of perseverance (and caffeine), we’re
+confident this project will come together, because _great work often thrives
+within a little chaos._
