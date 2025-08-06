@@ -188,3 +188,6 @@ Read more about the Iceberg Model that we used to uncover **systemic issues** un
 | 3     | Data Analysis                | ⏳ Upcoming | 11/08/2025 – 21/08/2025 |
 | 4     | Communicating Results        | ⏳ Upcoming | After 21/08/2025 (split group) |
 | 5     | Final Presentation           | ⏳ Upcoming | By 25/08/2025 |
+<!-- markdownlint-disable MD013 -->
+<!-- markdownlint-disable MD033 -->
+

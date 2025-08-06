@@ -1,8 +1,7 @@
 <!-- markdownlint-disable MD036 -->
-
 <!-- markdownlint-disable MD033 -->
-
 <!-- markdownlint-disable MD024 -->
+<!-- markdownlint-disable MD013 -->
 
 # Meeting Notes
 
