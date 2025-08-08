@@ -1,34 +1,71 @@
-<!-- this template is for inspiration, feel free to change it however you like! -->
+# Project Constraints
 
-# Constraints
+This document outlines the key constraints that guide our data analysis
+project, these constraints help define our scope, manage expectations,
+and ensure ethical and effective project execution.
 
-Some boundaries around our project.
+**Some boundaries around our project:**
 
 ## External
 
-<!--
-  constraints coming from the outside that your team has no control over:
-  - project deadlines
-  - number of unit tests required to pass a code review
-  - technologies (sometimes a client will tell you what to use)
-  - power or connectivity
-  - ...
--->
+_These are constraints coming from outside the
+team’s control:_
+
+### Time Constraints
+
+- Project timeline
+- Inconsistent access to power and reliable internet may hinder communication
+  and workflow
+- Ongoing war-related circumstances in certain regions may disrupt regular participation
+- Time zone differences across team members, limiting synchronous collaboration
+and response times
+  
+### Data Constraints
+
+- Use publicly available/ethically sourced data
+- Anonymize sensitive/personal health data
+- Scope manageable within project timelines
+- Our project partner intended to provide clinic data, but it was not digitized and
+  no details were shared
+- As a result, we chose to rely on publicly available datasets instead
+
+### Team Dynamics
+
+- Initial waiting for partner input delayed progress, leading our
+  team to take primary responsibility for project execution
 
 ## Internal: Involuntary
 
-<!--
-  constraints that come from within your team, and you have no control over:
-  - each of your individual skill levels
-  - amount of time available to work on the project
--->
+_Constraints from within the team,
+not under direct control:_
+
+- Team members have varying skill levels and domain expertise
+- Limited and variable availability due to professional and personal commitments
+- Our groups were merged late in the project timeline,
+requiring us to restart much of the work from scratch
 
 ## Internal: Voluntary
 
-<!--
-  constraints that your team decided on to help scope the project. they may include:
-  - coding style & conventions
-  - agree on a code review checklist for the project repository
-  - the number of hours you want to spend working
-  - only using the colors black and white
--->
+_Constraints that the team decided on to help scope the project
+They may include:_
+
+### Workflow & Code Quality
+
+- Coding style & conventions
+- Agree on a code review checklist
+- Number of hours to spend working
+- All contributions must be made through assigned branches and reviewed via
+open issues, then set up pull requests.
+
+### Ethical Constraints
+
+- Adhere to data privacy regulations
+- Avoid bias in data selection and analysis
+- Clearly acknowledge data sources
+- Transparent about limitations/uncertainties
+
+---
+…So, these are the constraints shaping our journey. Challenges? Yes. Setbacks?
+A few. But with a clear scope and a bit of perseverance (and caffeine), we’re
+confident this project will come together, because _great work often thrives
+within a little chaos._
