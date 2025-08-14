@@ -77,6 +77,8 @@ This led to our **final research questions**:
 
 ## ❄ Iceberg Model - Neonatal Mortality in Somalia
 
+![iceberg model](iceberg.png "Iceberg Model")
+
 ### **Event (Tip of the Iceberg):**
 
 - Somalia’s neonatal mortality rate remains among the **highest globally**
