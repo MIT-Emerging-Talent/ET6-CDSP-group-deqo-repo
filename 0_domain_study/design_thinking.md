@@ -32,9 +32,11 @@ Maternal mortality exceeds 800 per 100,000 live births, nearly 40 times the
 SDG target.
 
 We initially converged on **maternal health** for three reasons:
-    1. **Urgency** – Somalia's maternal mortality ratio is among the highest
+
+  1. **Urgency** – Somalia's maternal mortality ratio is among the highest
    globally (estimated > 800 deaths per 100,000 live births).  
-    2. **Data Availability** – SHDS 2020 provides indicators on antenatal care,
+
+  2. **Data Availability** – SHDS 2020 provides indicators on antenatal care,
    delivery conditions, and FGM prevalence.
 
 Our **first problem statement** was:
@@ -48,21 +50,28 @@ mortality outcomes?*
 
 Deeper review of **SHDS 2020** and
 **WHO–Somalia Country Cooperation Strategy (2021–2025)** highlighted:
-    - **Neonatal deaths** account for ~40% of all under-five deaths in Somalia.
-    - Stronger data coverage for neonatal outcomes than for postpartum
+
+- **Neonatal deaths** account for ~40% of all under-five deaths in Somalia.
+
+- Stronger data coverage for neonatal outcomes than for postpartum
   infection (which suffers from survivor bias).  
-    - Documented causal pathways between
+  
+- Documented causal pathways between
   **FGM severity, prolonged/obstructed labour, and neonatal birth trauma**.  
-    - Clear geographic and socio-political patterns in neonatal mortality that
+  
+- Clear geographic and socio-political patterns in neonatal mortality that
   could be mapped.
 
 This led to our **final research questions**:
-    1. **Hotspots** – Are there geographic hotspots where neonatal mortality
-   and morbidity cluster?
-    2. **FGM Severity** – How does the severity at which FGM is performed
-   influence neonatal health outcomes?
-    3. **Conflict Disparities** – Are there disparities in neonatal mortality
-   linked to socio-political instability (e.g., conflict zones vs. stable regions)?
+
+  1. **Hotspots** – Are there geographic hotspots where neonatal mortality
+         and morbidity cluster?
+  
+  2. **FGM Severity** – How does the severity at which FGM is performed
+         influence neonatal health outcomes?
+  
+  3. **Conflict Disparities** – Are there disparities in neonatal mortality
+     linked to socio-political instability (e.g., conflict zones vs. stable regions)?
 
 ---
 
@@ -73,6 +82,7 @@ This led to our **final research questions**:
 - Somalia’s neonatal mortality rate remains among the **highest globally**
   with regional clustering and strong links to conflict intensity, facility
   access, and maternal health practices.
+
 - Severe forms of **FGM (Type III/infibulation)** are associated with
   prolonged/obstructed labor, higher risk of stillbirth, and early neonatal death.
 
@@ -82,6 +92,7 @@ This led to our **final research questions**:
 
 - **Geographic clustering:** Rural, conflict-affected, and IDP settlements
   report the highest neonatal mortality and lowest skilled birth attendance.
+
 - **Severe FGM prevalence:** More common in rural/traditional areas,
   correlated with difficult labor, birth trauma, and low Apgar scores.
 - **Conflict-linked disparities:** Reduced immunization coverage, medicine
