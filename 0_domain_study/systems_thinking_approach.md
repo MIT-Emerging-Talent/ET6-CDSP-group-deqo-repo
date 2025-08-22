@@ -40,7 +40,7 @@ Data and governance gaps: underdeveloped health information systems, and little 
 
 Inequities: Wealth, urban–rural, and regional disparities concentrate under-5 morbidity/mortality .
 
-💭 Mental ModelsWhat beliefs and values keep the system in place?
+## 💭 Mental Models: What beliefs and values keep the system in place?
 
 FGM cultural norms: Seen as a rite of passage, prerequisite for marriage, and a marker of purity/honor → perpetuating near-universal practice despite health risks.
 
