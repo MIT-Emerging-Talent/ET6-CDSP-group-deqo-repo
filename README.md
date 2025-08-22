@@ -62,7 +62,7 @@ This research aims to:
 
 ---
 
-## Non-Technical Explanation of the Domain Model
+## 📝 Non-Technical Explanation of the Domain Model
 
 The SHDS dataset includes real-world constructs represented in data variables. The main concepts relevant to our research include:
 
