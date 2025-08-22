@@ -4,9 +4,99 @@
 
 ## **Emerging Talent 6 - Collaborative Data Science Project (CDSP)**
 
+[![temp-Imagex-Nbboo.avif](https://i.postimg.cc/d0vP6cqs/temp-Imagex-Nbboo.avif)](https://postimg.cc/TKk42SLF)
+
 This project is part of a collaborative data science initiative where we aim to create meaningful solutions aligned with pressing health needs in Somalia.
 
 We are a team of aspiring data scientists designing a real-time health data platform that enables Somali health workers to input daily patient information, transforming it into live dashboards and maps. The system supports early outbreak detection, monitoring of chronic conditions, and informed resource allocation to underserved areas.
+
+---
+
+## 🌍 Project Overview
+
+**Title:** Real-Time Health Data Platform for Somalia: Maternal and Child health (0–5 years)
+
+**Summary:**
+This project will investigate the status of maternal and child health (0–5 years) with a focus on neonatal health in Somalia. The study is divided into two main parts: the first examines maternal health in Somalia, while the second focuses on the health of children under five years of age. Together, these two components aim to provide a comprehensive understanding of the current challenges and opportunities for improving health outcomes for mothers and young children in Somalia.
+
+## 🎯 Problem Identification
+
+### Design Thinking Process
+
+We began by exploring the state of healthcare in Somalia through statistical data and academic research, which revealed several critical areas of concern.
+
+#### 🔹 Divergence (Exploration phase)
+
+We began by exploring the available data on Somalia’s health status. Our initial challenge was Somalia’s long-standing data drought, where for nearly three decades little to no nationally representative health data was available. This gap was addressed by the Somalia Health and Demographic Survey (SHDS) 2020, which became a cornerstone resource, effectively ending this 30-year data drought.
+
+Using the SHDS dataset, we carried out broad exploratory research into multiple dimensions of Somalia’s health, including:
+
+- Maternal health and reproductive health outcomes
+
+- Child health, particularly children under five
+
+- Gender-based violence (GBV)
+
+- Chronic diseases and non-communicable conditions
+
+- Nutritional status and malnutrition patterns
+
+Through this exploratory (divergent) process, we gained a wide understanding of Somalia’s key health burdens and identified major knowledge gaps.
+
+#### 🔹 Convergence (Focusing phase)
+
+After systematically reviewing these domains, we narrowed our focus to maternal and under 5 children health, given their persistently high mortality rates and the critical impact of practices such as female genital mutilation (FGM) on outcomes.
+Hence we came up with these questions
+
+---
+
+#### 🔍 Research Focus
+
+This research aims to:
+
+- Assess the impact of FGM on maternal and neonatal outcomes in Somalia.
+- Map and analyze national patterns and geographic hotspots of children under 5 mortality and morbidity throughout Somalia.
+
+> 🔎 Check the [0_domain_study](./0_domain_study/) for more information
+>
+
+---
+
+## Non-Technical Explanation of the Domain Model
+
+The SHDS dataset includes real-world constructs represented in data variables. The main concepts relevant to our research include:
+
+- Maternal health: Includes caesarean section history, fertility indicators such as number of children born, and number of children deceased. It also records healthcare access and utilization measures such as antenatal care (ANC) visits, skilled birth attendance, and postnatal care.
+
+- Female Genital Mutilation (FGM): Covers prevalence, type (e.g., Type I–III), age at which the procedure was performed, and the person who performed it (e.g., traditional circumciser, healthcare worker)
+Children under 5 health outcomes:Includes mortality data, vaccination birth weight, and morbidity indicators such as fever, acute respiratory infection (ARI) symptoms, and diarrhea.
+
+- Geographic location: regional data enabling analysis of subnational disparities and identification of hotspots.
+
+- Health service access: metrics such as facility births, ANC visits, postnatal care (PNC), which act as mediating factors in outcomes.
+
+- Treatment Pathways – whether care was sought, from where (government hospital, pharmacy, traditional healer, etc.), and what treatments were given (e.g., antibiotics, rehydration therapy, antimalarials).
+
+> 🔎 Check the [2_data_preparation/](./2_data_preparation/non-technical-domain-modeling.md) for more information
+>
+
+---
+
+## 🏗️ Repository Structure
+
+| File/Folder | Description |
+|-------------|-------------|
+| `README.md` | Overview and instructions |
+| `guide.md` | Collaboration and development tips |
+| `collaboration/` | Team norms, retrospectives, communication plans |
+| `notes/` | Tutorials, tools, learning materials |
+| `0_domain_study/` | Research on Somalia’s health context |
+| `1_datasets/` | Raw and cleaned data |
+| `2_data_preparation/` | Data cleaning/transformation scripts |
+| `3_data_exploration/` | Initial summary statistics and plots |
+| `4_data_analysis/` | Research question-focused analyses |
+| `5_communication_strategy/` |  Message design, visuals, and strategy |
+| `6_final_presentation/` | Slide decks, scripts, video demo |
 
 ---
 
@@ -32,9 +122,9 @@ Welcome! We are a large team of aspiring data scientists participating in the **
         <a href="https://github.com/AnaiMurillo">AnaiMurillo</a>
       </td>
       <td style="text-align: center;">
-        <img src="https://github.com/Aseel-AbuKmail.png" width="65" alt="Aseel Abutair"><br>
+        <img src="https://github.com/aabukmail.png" width="65" alt="Aseel Abutair"><br>
         <strong>Aseel AbuKmail</strong><br>
-        <a href="https://github.com/Aseel-AbuKmail">Aseel-AbuKmail</a>
+        <a href="https://github.com/aabukmail">Aseel-AbuKmail</a>
       </td>
     </tr>
     <tr>
@@ -100,93 +190,5 @@ Welcome! We are a large team of aspiring data scientists participating in the **
   </tbody>
 </table>
 
-## 🌍 Project Overview
-
-**Title:** Real-Time Health Data Platform for Somalia.
-
-**Summary:**
-We are designing a system for Somali health workers to enter daily patient data, which is then processed into real-time maps and dashboards.
-
-This system aims to:
-
-- Detect outbreaks early
-- Track chronic disease trends
-- Support data-informed decision-making for communities and government
-
-**📌 Current Status:**
-
-We are currently working on an MVP version of the platform, with a specific focus on maternal health — particularly **postpartum infections and their correlation with maternal mortality in Somalia.** The project scope has been defined, along with the research question and the identification of an initial dataset to support our investigation.
-
-## 🎯 Problem Identification
-
-### Design Thinking Process
-
-#### **🧠 Phase I: Divergent Thinking**
-
-We began by exploring the state of healthcare in Somalia through statistical data and academic research, which revealed several critical areas of concern. Based on these findings, *we identified three key health pillars to investigate further:*
-
-- Infectious Diseases
-- Non-Communicable Diseases
-- Child Vaccination & Mortality
-
-These pillars reflected both the pressing health challenges in Somalia and  potential core interests for Deqo’s dashboard and hospital in addressing underserved communities.
-
----
-
-#### **🎯 Phase II: Convergent Thinking**
-
-We narrowed our focus to Maternal Health, driven by its immediate urgency (maternal mortality rates in Somalia are among the **highest** in the world!) and the availability of relevant data. Using synthesis techniques, we developed one central research question supported by multiple sub-questions. We also validated our direction by aligning it with Deqo’s dashboard vision and Somalia’s national healthcare priorities
-
-[![infographic-2.png](https://i.postimg.cc/kXcpvZF4/infographic-2.png)](https://postimg.cc/RNWdMgY5)
-Read more about the Iceberg Model that we used to uncover **systemic issues** underlying maternal health outcomes.
-
----
-
-#### 🔍 Research Focus
-
-**Main Research Question:**
-
-> What are the patterns of postpartum infections among Somali women who
-> do not receive postnatal care within 2 days of delivery, and how do
-> these patterns correlate with maternal mortality outcomes?
-
-**Sub-Questions:**
-
-- Can we identify infection-mortality pathways outside formal healthcare systems?
-- Do seasonal or environmental factors like floods or malaria prevalence increase postpartum risks?
-- Are there geographic hotspots of postpartum infections?
-- What’s the true burden of infection-related maternal mortality in non-facility settings?
-- How does the age of FGM influence maternal and neonatal outcomes?
-
----
-
-## 🏗️ Repository Structure
-
-   plain ├── README.md # Overview and instructions
-    ├── guide.md # Collaboration and development tips
-    ├── /collaboration/ # Team norms, retrospectives, communication plans
-    ├── /notes/ # Tutorials, tools, learning materials
-    ├── /0_domain_study/ # Research on Somalia’s health context
-    ├── /1_datasets/ # Raw and cleaned data
-    ├── /2_data_preparation/ # Data cleaning/transformation scripts
-    ├── /3_data_exploration/ # Initial summary statistics and plots
-    ├── /4_data_analysis/ # Research question-focused analyses
-    ├── /5_communication_strategy/ # Message design, visuals, and strategy
-    └── /6_final_presentation/ # Slide decks, scripts, video demos
-
----
-
-## 🗓️ Project Timeline
-
- Our project has undergone several iterative cycles as we navigated challenges and refined our approach to stay aligned with our mission. The current timeline centers on completing the research phase focused on maternal health. Following this, an additional sprint will be launched to explore how Deqo's clinic data can be integrated and leveraged using the insights derived from this research.
-
-| Phase | Focus                      | Status      | Due Date    |
-|-------|----------------------------|-------------|-------------|
-| 0     | Cross-Cultural Collaboration | 🟢 Done    | 05/08/2025  |
-| 1     | Problem Identification       | ⏳ In Progress | 05/08/2025  |
-| 2     | Data Collection              | ⏳ In Progress | 10/08/2025  |
-| 3     | Data Analysis                | ⏳ Upcoming | 11/08/2025 – 21/08/2025 |
-| 4     | Communicating Results        | ⏳ Upcoming | After 21/08/2025 (split group) |
-| 5     | Final Presentation           | ⏳ Upcoming | By 25/08/2025 |
 <!-- markdownlint-disable MD013 -->
 <!-- markdownlint-disable MD033 -->
