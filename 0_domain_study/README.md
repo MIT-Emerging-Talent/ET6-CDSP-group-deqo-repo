@@ -74,7 +74,7 @@ This research aims to:
 9. UNICEF. (2022). State of the World’s Children 2022: Statistical tables. UNICEF Data.
 10. Warsame, A. A., Handuleh, J., Patel, P., & Elliott, L. (2020). Maternal health and pregnancy outcomes in Somalia: A review. East Mediterranean Health Journal, 26(9), 1033–1043.
 11. United Nations Inter-agency Group for Child Mortality Estimation (IGME). (2022). A neglected tragedy: The global burden of stillbirths. UNICEF, WHO, UNFPA, World Bank Group.
-=======
+
 ## Our Research Questions
 
 1-Are there geographic hotspots where neonatal mortality and morbidity cluster?
@@ -84,4 +84,3 @@ maternal and neonatal health outcomes?
 
 3-Are there disparities in neonatal mortality linked to socio-political
 instability (e.g., conflict zones vs. stable regions)?
-
