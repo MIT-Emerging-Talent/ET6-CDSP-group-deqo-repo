@@ -125,3 +125,97 @@ Preliminary analysis suggested no evident relationship between treatment-seeking
 Here doesn’t seem to be a simple, clear-cut relationship you can extract directly from this chart. Any analysis would need to account for **regional context** and possibly other covariates before concluding anything about education’s effect.
 
 [![Screenshot-2025-08-25-at-3-04-37-PM.png](https://i.postimg.cc/FFnDVqs6/Screenshot-2025-08-25-at-3-04-37-PM.png)](https://postimg.cc/7b03xKz1)
+
+## Question 2
+>
+>**How does the severity at which FGM (Female Genital Mutilation) is performed influence neonatal health outcomes?
+>
+### Key Variables Explored
+#### 1. Neonatal Health Outcomes
+
+##### Child Survival Status (B5$01 - B5$20)
+
+Indicates whether each child was alive or dead at interview time
+Encoding: 1 = "Alive", 2 = "Dead"
+Observations: Data becomes sparse for higher birth orders (B5$15+)
+
+
+##### Age at Death (B6$01 - B6$20, B7$01 - B7$20)
+
+B6: Age at death with coded units (1=days, 2=months, 3=years)
+B7: Age at death in completed months
+Data Processing: Converted B6 values to days for consistency
+Issues: Some unrealistic values (>3 years) treated as outliers
+
+#### 2. Delivery Characteristics
+##### Caesarean Section Delivery (M17$01 - M17$20)
+
+Indicates C-section delivery for each birth
+Encoding: 1 = "Yes", 2 = "No"
+Purpose: Proxy indicator for delivery complications
+
+#### 3. FGM Severity Measures
+##### Circumcision Status (G102)
+
+Whether respondent has been circumcised
+Encoding: 1 = "Yes", 2 = "No"
+Finding: High prevalence of FGM among respondents
+
+##### Type of Circumcision (G102A) - Primary Severity Indicator
+
+Classification of FGM type
+Categories:
+
+1 = Sunni
+2 = Intermediate
+3 = Pharaonic
+4 = Don't Know
+5 = Other
+
+
+Key Observation: Pharaonic type appears common in the dataset
+
+##### Procedure Details (G103 - G105)
+
+G103: Flesh removed from genital area (1 = "Yes")
+G104: Genital area just nicked without removing flesh (1 = "Yes")
+G105: Genital area sewn closed (1 = "Yes")
+Purpose: Provides specific procedure information to assess severity
+
+##### Age at Circumcision (G106)
+
+Age when FGM was performed
+Special Codes: 95 = "Baby", 98 = "Don't Know"
+Format: Years for numeric values
+
+##### Practitioner Type (G107)
+
+Who performed the circumcision procedure
+Categories: Traditional vs. medical practitioners (specific mapping needed)
+
+#### 4. Maternal Demographics
+##### Number of Living Children (V218)
+
+Total living children at time of interview
+Purpose: Provides context on maternal parity
+
+
+Data Quality Assessment
+Missing Data Patterns
+
+Higher birth orders (15+ children) show expected sparsity
+Some respondents have incomplete FGM procedure details
+Age at death variables show missing values for surviving children (expected)
+
+Data Integrity Issues
+
+Some unrealistic age at death values identified
+Inconsistencies between different FGM severity measures require investigation
+Special codes (95, 98) need proper handling in analysis
+
+#### Key Findings from Exploration
+g
+- High FGM Prevalence: Majority of respondents report being circumcised
+- Severity Distribution: Pharaonic type appears to be commonly reported
+- Neonatal Mortality Present: Deaths recorded across different birth orders
+- Data Structure: Birth history data shows expected pattern with decreasing completeness for higher parities
