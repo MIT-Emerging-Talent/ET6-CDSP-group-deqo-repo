@@ -139,6 +139,7 @@ Here doesn’t seem to be a simple, clear-cut relationship you can extract direc
 Indicates whether each child was alive or dead at interview time
 Encoding: 1 = "Alive", 2 = "Dead"
 Observations: Data becomes sparse for higher birth orders (B5$15+)
+[![1-alive-or-dead.png](https://i.postimg.cc/L5h8TPr2/1-alive-or-dead.png)](https://postimg.cc/zHZNDyzc)
 
 ##### Age at Death (B6$01 - B6$20, B7$01 - B7$20)
 
@@ -146,6 +147,8 @@ B6: Age at death with coded units (1=days, 2=months, 3=years)
 B7: Age at death in completed months
 Data Processing: Converted B6 values to days for consistency
 Issues: Some unrealistic values (>3 years) treated as outliers
+[![3-age-distribution.png](https://i.postimg.cc/9fnmf0Dk/3-age-distribution.png)](https://postimg.cc/XZ9SHVcK)
+[![2-age-correlation.png](https://i.postimg.cc/MKVvr7np/2-age-correlation.png)](https://postimg.cc/gnczx6yC)
 
 #### 2. Delivery Characteristics
 
@@ -154,6 +157,7 @@ Issues: Some unrealistic values (>3 years) treated as outliers
 Indicates C-section delivery for each birth
 Encoding: 1 = "Yes", 2 = "No"
 Purpose: Proxy indicator for delivery complications
+[![4-caesarean-vs-non-cs.png](https://i.postimg.cc/bJmQrQxh/4-caesarean-vs-non-cs.png)](https://postimg.cc/mzFc61pX)
 
 #### 3. FGM Severity Measures
 
@@ -162,6 +166,7 @@ Purpose: Proxy indicator for delivery complications
 Whether respondent has been circumcised
 Encoding: 1 = "Yes", 2 = "No"
 Finding: High prevalence of FGM among respondents
+[![5-respondent-cirumcisin.png](https://i.postimg.cc/sxBZ2bfY/5-respondent-cirumcisin.png)](https://postimg.cc/jnbjgg72)
 
 ##### Type of Circumcision (G102A) - Primary Severity Indicator
 
@@ -175,6 +180,7 @@ Categories:
 5 = Other
 
 Key Observation: Pharaonic type appears common in the dataset
+[![6-types-of-circumstion.png](https://i.postimg.cc/pTm62Xjq/6-types-of-circumstion.png)](https://postimg.cc/zb1j7N0g)
 
 ##### Procedure Details (G103 - G105)
 
@@ -182,17 +188,20 @@ G103: Flesh removed from genital area (1 = "Yes")
 G104: Genital area just nicked without removing flesh (1 = "Yes")
 G105: Genital area sewn closed (1 = "Yes")
 Purpose: Provides specific procedure information to assess severity
+[![7-disterbution-of-circ.png](https://i.postimg.cc/Zqt89bXw/7-disterbution-of-circ.png)](https://postimg.cc/pmCh4HWj)
 
 ##### Age at Circumcision (G106)
 
 Age when FGM was performed
 Special Codes: 95 = "Baby", 98 = "Don't Know"
 Format: Years for numeric values
+[![8-age-of-circum.png](https://i.postimg.cc/jjbfx8J9/8-age-of-circum.png)](https://postimg.cc/75KhXn9M)
 
 ##### Practitioner Type (G107)
 
 Who performed the circumcision procedure
 Categories: Traditional vs. medical practitioners (specific mapping needed)
+[![10-who-preformed-circumcision.png](https://i.postimg.cc/0Nhy5j3N/10-who-preformed-circumcision.png)](https://postimg.cc/gwqWNzG9)
 
 #### 4. Maternal Demographics
 
@@ -200,13 +209,17 @@ Categories: Traditional vs. medical practitioners (specific mapping needed)
 
 Total living children at time of interview
 Purpose: Provides context on maternal parity
+[![9-no-of-living-children.png](https://i.postimg.cc/MTGvHgZs/9-no-of-living-children.png)](https://postimg.cc/jWGskg7N)
 
 Data Quality Assessment
 Missing Data Patterns
 
+[![11-heatmap.png](https://i.postimg.cc/TYkGYh5X/11-heatmap.png)](https://postimg.cc/1fNbvmKW)
+
 Higher birth orders (15+ children) show expected sparsity
 Some respondents have incomplete FGM procedure details
 Age at death variables show missing values for surviving children (expected)
+[![12-disturbition-of-no-of-living-children.png](https://i.postimg.cc/1587wzYS/12-disturbition-of-no-of-living-children.png)](https://postimg.cc/RNzTzvBp)
 
 Data Integrity Issues
 
