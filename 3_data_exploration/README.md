@@ -131,6 +131,7 @@ Here doesn’t seem to be a simple, clear-cut relationship you can extract direc
 >**How does the severity at which FGM (Female Genital Mutilation) is performed influence neonatal health outcomes?
 >
 ### Key Variables Explored
+
 #### 1. Neonatal Health Outcomes
 
 ##### Child Survival Status (B5$01 - B5$20)
@@ -138,7 +139,6 @@ Here doesn’t seem to be a simple, clear-cut relationship you can extract direc
 Indicates whether each child was alive or dead at interview time
 Encoding: 1 = "Alive", 2 = "Dead"
 Observations: Data becomes sparse for higher birth orders (B5$15+)
-
 
 ##### Age at Death (B6$01 - B6$20, B7$01 - B7$20)
 
@@ -148,6 +148,7 @@ Data Processing: Converted B6 values to days for consistency
 Issues: Some unrealistic values (>3 years) treated as outliers
 
 #### 2. Delivery Characteristics
+
 ##### Caesarean Section Delivery (M17$01 - M17$20)
 
 Indicates C-section delivery for each birth
@@ -155,6 +156,7 @@ Encoding: 1 = "Yes", 2 = "No"
 Purpose: Proxy indicator for delivery complications
 
 #### 3. FGM Severity Measures
+
 ##### Circumcision Status (G102)
 
 Whether respondent has been circumcised
@@ -194,6 +196,7 @@ Who performed the circumcision procedure
 Categories: Traditional vs. medical practitioners (specific mapping needed)
 
 #### 4. Maternal Demographics
+
 ##### Number of Living Children (V218)
 
 Total living children at time of interview
@@ -214,7 +217,7 @@ Inconsistencies between different FGM severity measures require investigation
 Special codes (95, 98) need proper handling in analysis
 
 #### Key Findings from Exploration
-g
+
 - High FGM Prevalence: Majority of respondents report being circumcised
 - Severity Distribution: Pharaonic type appears to be commonly reported
 - Neonatal Mortality Present: Deaths recorded across different birth orders
