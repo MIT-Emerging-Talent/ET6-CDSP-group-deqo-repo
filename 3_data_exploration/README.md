@@ -174,7 +174,6 @@ Categories:
 4 = Don't Know
 5 = Other
 
-
 Key Observation: Pharaonic type appears common in the dataset
 
 ##### Procedure Details (G103 - G105)
@@ -201,7 +200,6 @@ Categories: Traditional vs. medical practitioners (specific mapping needed)
 
 Total living children at time of interview
 Purpose: Provides context on maternal parity
-
 
 Data Quality Assessment
 Missing Data Patterns
