@@ -14,10 +14,13 @@
 ## Core Message (What We Want Them to Learn)
 
 - **FGM kills**
-  - If not during circumcision itself, it causes death shortly after — through bleeding, infection, or sepsis.
+  - If not during circumcision itself, it causes death shortly after —
+    through bleeding, infection, or sepsis.
 - Survivors live with lifelong health consequences and deep psychological trauma.
-- It affects not only women but also their children — especially through higher risks of prolonged labor, birth asphyxia, and cesarean sections.
-- **FGM is not required by religion.** Our bodies are not meant to be mutilated. This unnecessary trauma can be prevented.
+- It affects not only women but also their children — especially through higher
+  risks of prolonged labor, birth asphyxia, and cesarean sections.
+- **FGM is not required by religion.** Our bodies are not meant to be mutilated.
+  This unnecessary trauma can be prevented.
 
 ---
 
@@ -31,7 +34,8 @@
 ## How We Want Them to Act
 
 - **Ideal Goal:** Criminalize FGM or create health policies against it.
-- **Realistic Step Now:** Raise awareness in their own communities, influence cultural mindsets, and discourage FGM practices.
+- **Realistic Step Now:** Raise awareness in their own communities, influence
+  cultural mindsets, and discourage FGM practices.
 
 ---
 
@@ -61,17 +65,20 @@ A dedicated **FGM Awareness Webpage** featuring:
 
 ### Professional Engagement
 
-- Use **LinkedIn & professional networks** to target NGOs, health workers, and policymakers
+- Use **LinkedIn & professional networks** to target NGOs, health workers,
+  and policymakers
 - Invite medical professionals to **endorse and share** the page
 
 ### Faith-Based Messaging
 
-- Collaborate with **progressive religious leaders** to state publicly that FGM is not a religious requirement
+- Collaborate with **progressive religious leaders** to state publicly that
+  FGM is not a religious requirement
 - Create **short video messages** featuring religious figures explaining this
 
 ### Recommendations & Calls to Action
 
-- Provide **practical guidelines** for community leaders on how to speak out against FGM
+- Provide **practical guidelines** for community leaders on how to speak out
+  against FGM
 - Offer **downloadable resources** (brochures, sermon guides, health briefs)
 
 ---
@@ -88,7 +95,8 @@ A dedicated **FGM Awareness Webpage** featuring:
 
 - Belief by many that **FGM is a religious obligation**
 - **99% of Somali women are circumcised** → strong community resistance
-- Limited ability to **enforce direct change** (focus must be on awareness and perception shifts)
+- Limited ability to **enforce direct change** (focus must be on awareness and
+  perception shifts)
 - **Security risks** for activists in conservative areas
 - Older women may resist, while younger women may be more open
 - Limited internet access in rural areas → require **radio & community gatherings**
