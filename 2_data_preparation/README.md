@@ -115,59 +115,73 @@ ________________________________________________________________________________
 
 ## Question 2
 
- How does the severity at which FGM is performed influence neonatal health outcomes?
+Female Genital Mutilation (FGM) and Neonatal Health Outcomes in Somalia  
 
-The preparation of data to evaluate how different severities of Female Genital Mutilation (FGM) influence neonatal health outcomes in Somalia. The analysis builds from the Somalia Demographic and Health Survey (SHDS 2020), which captures both FGM practice and neonatal health indicators.
+## Research Context
 
-***Dataset Information***
-***Source: Somalia Demographic and Health Survey (SHDS) 2020**
-***Population:** Ever-married women aged **12–49 years**
-**Record Type:** Individual Recode (IR) – one record per eligible woman
-**Original Format:** SPSS (.sav) → converted to CSV
-**Survey Design:** Multi-stage cluster sampling with stratification
-**Weighting:** Population-representative weights included **(V005)**
-**Coverage:** National, across Somali regions
-**Temporal Coverage:** Births and health events in the 5 years preceding the survey
+This notebook documents the **data cleaning and preparation process** for analyzing the impact of Female Genital Mutilation (FGM) severity on neonatal health outcomes among Somali women.  
 
-## Key Variables
+FGM remains a critical public health issue in Somalia, and understanding its relationship with neonatal outcomes provides valuable evidence for maternal and child health interventions.  
 
-|Variable Group |Example Variables  |Description|
-|FGM Status & Severity |FGM_01, FGM_04 |Whether circumcised and type/severity performed|
-|FGM Circumcision Details|Age at circumcision, performer type|Captures cultural and medical context|
-|Neonatal Mortality|B5, B6, B7|Survival status, age at death|
-|Birth Conditions|M18|Reported birth size/low birthweight|
-|Child Morbidity|Cough, fever, diarrhea indicators|Post-birth complications
-|Maternal Care |ANC visits, PNC visits, vaccination coverage|Possible mediating factors
+## Research Question  
 
-## Data Cleaning Workflow
+**How does the severity at which FGM (Female Genital Mutilation) is performed influence neonatal health outcomes?**  
 
-**Initial Data Inspection**
-Loaded sample **(n=1000 rows)**
-Identified FGM-related and neonatal variables
-Checked missingness, null-heavy columns, and memory efficiency
-Schema Definition & Selective Loading
-Selected only relevant columns (FGM severity, neonatal outcomes)
-Applied efficient dtypes (e.g., category, Int64)
-Cleaning & Standardization
-Converted date fields (B6, B7) to datetime format
-Standardized FGM categories (WHO types I–IV)
-Re-coded neonatal outcomes into binary/ordinal measures
+## Dataset Information  
 
-## Missingness Treatment
+- **Source:** Somalia Demographic and Health Survey (SHDS) 2020  
+- **Population:** Ever-married women aged 12–49 years  
+- **Record Type:** Individual Recode (IR) — one record per eligible woman  
+- **Original Format:** SPSS (.sav) → Converted to CSV  
 
-|Variable|Missingness|Action Taken|
-|FGM Type (FGM_04)|~6% |Imputed as “Other/Unspecified” if circumcised; -1 if uncircumcised|
-|Child Survival (B5)|~8% |Dropped due to systematic missingness|
-|Birth Size (M18)|~6.7%|Imputed as “Don’t Know”|
-|Vaccinations|40–80%|Excluded from final analysis due to excessive missingness|
+### Key Data Characteristics  
 
-## Consistency Rules
+- **Survey Design:** Multi-stage cluster sampling with stratification  
+- **Weighting:** Population-representative weights included (V005)  
+- **Geographic Coverage:** National coverage across Somali regions  
+- **Temporal Coverage:** Births and health events in the 5 years preceding the survey  
 
-If FGM Status = 0 (not circumcised) → severity, age, performer set to “-1 Not Applicable”
-If Child Alive = 1 → all death variables set to “-1 Not Applicable”
-If Child Dead = 1 → morbidity indicators retained where available
+The dataset contains both:  
 
-## Output
+- **Single variables:** Demographics (age, education, wealth)  
+- **Multiple variables:** Birth history, child health, contraceptive knowledge  
 
-Final cleaned dataset saved as SHDS
-Ready for downstream analysis on the relationship between FGM severity and neonatal health outcomes.
+**Suffix notation**: `$01, $02, $03…` → multiple children/events per woman  
+Example: `M70$01 = postnatal care for 1st birth`, `M70$02 = 2nd birth`  
+
+## Variables of Interest  
+
+- **FGM Practices:** Type, severity/extent, age at circumcision, performer  
+- **Neonatal Health:** Child survival, age at death, delivery outcomes  
+- **Maternal Factors:** C-section, parity, education, wealth  
+
+## Data Cleaning Workflow  
+
+### Step 1: Initial Data Inspection  
+
+- Used **questionnaires** to identify variables relevant to FGM and neonatal health  
+- Conducted **manual sorting** of raw SHDS variable lists  
+- Applied **questioning and cross-checking** against the SHDS **data dictionary** to validate coding, variable meaning, and categorical responses  
+- Loaded a sample (500–1000 rows) to inspect:  
+  - Data types (categorical, numeric, datetime)  
+  - Missing values and null-heavy columns  
+  - Consistency with survey design (weights, stratification)  
+
+### Step 2: Schema Definition & Selective Loading  
+
+- Defined memory-efficient data types (`Int64`, `category`, `string`)  
+- Loaded only relevant columns (FGM, neonatal outcomes, demographics)  
+- Applied error handling for malformed rows during CSV conversion  
+
+### Step 3: Cleaning & Standardization  
+
+- Dropped irrelevant or unused categories (e.g., missing codes not in SHDS)  
+- Normalized categorical values for consistency (e.g., standardizing FGM severity levels)  
+- Converted date strings (births, child deaths) to `datetime64[ns]`  
+- Applied **table-specific filtering** to include only:  
+  - Women with valid FGM data  
+  - Birth records with neonatal outcomes reported  
+
+### Step 4: Output  
+  
+- Each cleaned dataset corresponds to one processing notebook in this repo
