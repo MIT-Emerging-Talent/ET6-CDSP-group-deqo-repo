@@ -154,18 +154,18 @@ Issues: Some unrealistic values (>3 years) treated as outliers.
 
 ##### Caesarean Section Delivery (M17$01 - M17$20)
 
-Indicates C-section delivery for each birth.
-Encoding: 1 = "Yes", 2 = "No".
-Purpose: Proxy indicator for delivery complications.
+Indicates C-section delivery for each birth.\
+Encoding: 1 = "Yes", 2 = "No".\
+Purpose: Proxy indicator for delivery complications.\
 [![4-caesarean-vs-non-cs.png](https://i.postimg.cc/bJmQrQxh/4-caesarean-vs-non-cs.png)](https://postimg.cc/mzFc61pX)
 
 #### 3. FGM Severity Measures
 
 ##### Circumcision Status (G102)
 
-Whether respondent has been circumcised.
-Encoding: 1 = "Yes", 2 = "No".
-Finding: High prevalence of FGM among respondents.
+Whether respondent has been circumcised.\
+Encoding: 1 = "Yes", 2 = "No".\
+Finding: High prevalence of FGM among respondents.\
 [![5-respondent-cirumcisin.png](https://i.postimg.cc/sxBZ2bfY/5-respondent-cirumcisin.png)](https://postimg.cc/jnbjgg72)
 
 ##### Type of Circumcision (G102A) - Primary Severity Indicator
@@ -184,31 +184,31 @@ Key Observation: Pharaonic type appears common in the dataset.
 
 ##### Procedure Details (G103 - G105)
 
-G103: Flesh removed from genital area (1 = "Yes").
-G104: Genital area just nicked without removing flesh (1 = "Yes").
-G105: Genital area sewn closed (1 = "Yes").
-Purpose: Provides specific procedure information to assess severity.
+G103: Flesh removed from genital area (1 = "Yes").\
+G104: Genital area just nicked without removing flesh (1 = "Yes").\
+G105: Genital area sewn closed (1 = "Yes").\
+Purpose: Provides specific procedure information to assess severity.\
 [![7-disterbution-of-circ.png](https://i.postimg.cc/Zqt89bXw/7-disterbution-of-circ.png)](https://postimg.cc/pmCh4HWj)
 
 ##### Age at Circumcision (G106)
 
-Age when FGM was performed. 
-Special Codes: 95 = "Baby", 98 = "Don't Know".
-Format: Years for numeric values.
+Age when FGM was performed.\
+Special Codes: 95 = "Baby", 98 = "Don't Know".\
+Format: Years for numeric values.\
 [![8-age-of-circum.png](https://i.postimg.cc/jjbfx8J9/8-age-of-circum.png)](https://postimg.cc/75KhXn9M)
 
 ##### Practitioner Type (G107)
 
-Who performed the circumcision procedure.
-Categories: Traditional vs. medical practitioners (specific mapping needed).
+Who performed the circumcision procedure.\
+Categories: Traditional vs. medical practitioners (specific mapping needed).\
 [![10-who-preformed-circumcision.png](https://i.postimg.cc/0Nhy5j3N/10-who-preformed-circumcision.png)](https://postimg.cc/gwqWNzG9)
 
 #### 4. Maternal Demographics
 
 ##### Number of Living Children (V218)
 
-Total living children at time of interview.
-Purpose: Provides context on maternal parity
+Total living children at time of interview.\
+Purpose: Provides context on maternal parity\
 [![9-no-of-living-children.png](https://i.postimg.cc/MTGvHgZs/9-no-of-living-children.png)](https://postimg.cc/jWGskg7N)
 
 Data Quality Assessment
