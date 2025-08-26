@@ -179,15 +179,15 @@ Here doesn’t seem to be a simple, clear-cut relationship you can extract direc
 ##### Type of Circumcision (G102A) - Primary Severity Indicator
 
 Classification of FGM type
-- Categories:
+
+Categories:
 
 1 = Sunni  
 2 = Intermediate  
 3 = Pharaonic  
 4 = Don't Know  
 5 = Other  
-
-- Key Observation: Pharaonic type appears common in the dataset. 
+Key Observation: Pharaonic type appears common in the dataset. 
 
 [![6-types-of-circumstion.png](https://i.postimg.cc/VLT79qLL/6-types-of-circumstion.png)](https://postimg.cc/BXTc41Kd)
 
