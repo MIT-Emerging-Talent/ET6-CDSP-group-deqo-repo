@@ -136,42 +136,50 @@ Here doesn’t seem to be a simple, clear-cut relationship you can extract direc
 
 ##### Child Survival Status (B5$01 - B5$20)
 
-Indicates whether each child was alive or dead at interview time.Encoding: 1 = "Alive", 2 = "Dead".
-Observations: Data becomes sparse for higher birth orders (B5$15+).
-[![1-alive-or-dead.png](https://i.postimg.cc/L5h8TPr2/1-alive-or-dead.png)](https://postimg.cc/zHZNDyzc)  
+- Indicates whether each child was alive or dead at interview time.
+- Encoding: 1 = "Alive", 2 = "Dead".
+- Observations: Data becomes sparse for higher birth orders (B5$15+).
+
+[![1-alive-or-dead.png](https://i.postimg.cc/y8L8r8td/1-alive-or-dead.png)](https://postimg.cc/ZWymW4Tt)  
 
 ##### Age at Death (B6$01 - B6$20, B7$01 - B7$20)
 
-B6: Age at death with coded units (1=days, 2=months, 3=years).
-B7: Age at death in completed months.
-Data Processing: Converted B6 values to days for consistency.
-Issues: Some unrealistic values (>3 years) treated as outliers.
-[![3-age-distribution.png](https://i.postimg.cc/9fnmf0Dk/3-age-distribution.png)](https://postimg.cc/XZ9SHVcK)
+- B6: Age at death with coded units (1=days, 2=months, 3=years).
+- B7: Age at death in completed months.
+- Data Processing: Converted B6 values to days for consistency.
+- Issues: Some unrealistic values (>3 years) treated as outliers.
 
-[![2-age-correlation.png](https://i.postimg.cc/MKVvr7np/2-age-correlation.png)](https://postimg.cc/gnczx6yC)
+[![2-age-correlation.png](https://i.postimg.cc/vTyyZJkk/2-age-correlation.png)](https://postimg.cc/62MgHm9f)
+[![3-age-distribution.png](https://i.postimg.cc/K8j2jrpG/3-age-distribution.png)](https://postimg.cc/xcw7FHSh)
+
+----------
 
 #### 2. Delivery Characteristics
 
 ##### Caesarean Section Delivery (M17$01 - M17$20)
 
-Indicates C-section delivery for each birth.\
-Encoding: 1 = "Yes", 2 = "No".\
-Purpose: Proxy indicator for delivery complications.\
-[![4-caesarean-vs-non-cs.png](https://i.postimg.cc/bJmQrQxh/4-caesarean-vs-non-cs.png)](https://postimg.cc/mzFc61pX)
+- Indicates C-section delivery for each birth.
+- Encoding: 1 = "Yes", 2 = "No".
+- Purpose: Proxy indicator for delivery complications.
+
+[![4-caesarean-vs-non-cs.png](https://i.postimg.cc/3JLss08P/4-caesarean-vs-non-cs.png)](https://postimg.cc/56CKv0F3)
+
+----------
 
 #### 3. FGM Severity Measures
 
 ##### Circumcision Status (G102)
 
-Whether respondent has been circumcised.\
-Encoding: 1 = "Yes", 2 = "No".\
-Finding: High prevalence of FGM among respondents.\
-[![5-respondent-cirumcisin.png](https://i.postimg.cc/sxBZ2bfY/5-respondent-cirumcisin.png)](https://postimg.cc/jnbjgg72)
+- Whether respondent has been circumcised.
+- Encoding: 1 = "Yes", 2 = "No".
+- Finding: High prevalence of FGM among respondents.
+
+[![5-respondent-cirumcisin.png](https://i.postimg.cc/g2CTpvfB/5-respondent-cirumcisin.png)](https://postimg.cc/G4jQJs3k)
 
 ##### Type of Circumcision (G102A) - Primary Severity Indicator
 
 Classification of FGM type
-Categories:
+- Categories:
 
 1 = Sunni  
 2 = Intermediate  
@@ -179,37 +187,44 @@ Categories:
 4 = Don't Know  
 5 = Other  
 
-Key Observation: Pharaonic type appears common in the dataset. 
-[![6-types-of-circumstion.png](https://i.postimg.cc/pTm62Xjq/6-types-of-circumstion.png)](https://postimg.cc/zb1j7N0g)
+- Key Observation: Pharaonic type appears common in the dataset. 
+
+[![6-types-of-circumstion.png](https://i.postimg.cc/VLT79qLL/6-types-of-circumstion.png)](https://postimg.cc/BXTc41Kd)
 
 ##### Procedure Details (G103 - G105)
 
-G103: Flesh removed from genital area (1 = "Yes").\
-G104: Genital area just nicked without removing flesh (1 = "Yes").\
-G105: Genital area sewn closed (1 = "Yes").\
-Purpose: Provides specific procedure information to assess severity.\
-[![7-disterbution-of-circ.png](https://i.postimg.cc/Zqt89bXw/7-disterbution-of-circ.png)](https://postimg.cc/pmCh4HWj)
+- G103: Flesh removed from genital area (1 = "Yes").
+- G104: Genital area just nicked without removing flesh (1 = "Yes").
+- G105: Genital area sewn closed (1 = "Yes").
+- Purpose: Provides specific procedure information to assess severity.
+
+[![7-disterbution-of-circ.png](https://i.postimg.cc/dtzBZJ4h/7-disterbution-of-circ.png)](https://postimg.cc/56SvZWcJ)
 
 ##### Age at Circumcision (G106)
 
-Age when FGM was performed.\
-Special Codes: 95 = "Baby", 98 = "Don't Know".\
-Format: Years for numeric values.\
-[![8-age-of-circum.png](https://i.postimg.cc/jjbfx8J9/8-age-of-circum.png)](https://postimg.cc/75KhXn9M)
+- Age when FGM was performed.
+- Special Codes: 95 = "Baby", 98 = "Don't Know".
+- Format: Years for numeric values.
+
+[![8-age-of-circum.png](https://i.postimg.cc/hjjx3Y2F/8-age-of-circum.png)](https://postimg.cc/DW98SxV5)
 
 ##### Practitioner Type (G107)
 
-Who performed the circumcision procedure.\
-Categories: Traditional vs. medical practitioners (specific mapping needed).\
+- Who performed the circumcision procedure.
+- Categories: Traditional vs. medical practitioners (specific mapping needed).
+
 [![10-who-preformed-circumcision.png](https://i.postimg.cc/0Nhy5j3N/10-who-preformed-circumcision.png)](https://postimg.cc/gwqWNzG9)
+
+----------
 
 #### 4. Maternal Demographics
 
 ##### Number of Living Children (V218)
 
-Total living children at time of interview.\
-Purpose: Provides context on maternal parity\
-[![9-no-of-living-children.png](https://i.postimg.cc/MTGvHgZs/9-no-of-living-children.png)](https://postimg.cc/jWGskg7N)
+- Total living children at time of interview.
+- Purpose: Provides context on maternal parity.
+
+[![9-no-of-living-children.png](https://i.postimg.cc/NMS48YBC/9-no-of-living-children.png)](https://postimg.cc/zbwK5sLT)
 
 Data Quality Assessment
 Missing Data Patterns
