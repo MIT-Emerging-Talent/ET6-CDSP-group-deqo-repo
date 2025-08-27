@@ -150,6 +150,7 @@ Here doesn’t seem to be a simple, clear-cut relationship you can extract direc
 - Issues: Some unrealistic values (>3 years) treated as outliers.
 
 [![2-age-correlation.png](https://i.postimg.cc/vTyyZJkk/2-age-correlation.png)](https://postimg.cc/62MgHm9f)
+
 [![3-age-distribution.png](https://i.postimg.cc/K8j2jrpG/3-age-distribution.png)](https://postimg.cc/xcw7FHSh)
 
 ----------
