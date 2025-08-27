@@ -185,7 +185,7 @@ Are there geographic hotspots for children under five with respect to
 
 - Mortality is rare, making estimates unstable.  
 - Morbidity recall window (2 weeks) introduces noise.  
-- Self-reported measures (ANC, sickness) subject to bias.  
+- Self-reported measures (ANC, sickness) are subject to bias.  
 - Imbalanced data reduces predictive model performance.  
 
 ---
