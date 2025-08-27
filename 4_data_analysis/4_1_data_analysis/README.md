@@ -79,7 +79,7 @@ outcomes?
 
 ### 6.1 FGM Type × Caesarean at First Birth
 
-The chi-square test reveals a statistically significant association between
+The chi-square test shows a statistically significant association between
 the type of Female Genital Mutilation (FGM) a woman experienced and the
 likelihood of undergoing a caesarean section at her first birth. Women who
 reported Pharaonic FGM exhibited a higher frequency of caesarean delivery
