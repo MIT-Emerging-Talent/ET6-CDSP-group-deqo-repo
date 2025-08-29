@@ -110,3 +110,78 @@ Finally, I addressed 13 variables with **high missingness (54–90%)**, includin
 - **Action:** All variables with >30% missingness were **dropped**.
 
 > The final dataset is now **consistent, complete, and analysis-ready** for modeling geographic hotspots of neonatal mortality and morbidity.
+
+______________________________________________________________________________________________
+
+## Question 2
+
+Female Genital Mutilation (FGM) and Neonatal Health Outcomes in Somalia  
+
+## Research Context
+
+This notebook documents the **data cleaning and preparation process** for analyzing the impact of Female Genital Mutilation (FGM) severity on neonatal health outcomes among Somali women.  
+
+FGM remains a critical public health issue in Somalia, and understanding its relationship with neonatal outcomes provides valuable evidence for maternal and child health interventions.  
+
+## Research Question  
+
+**How does the severity at which FGM (Female Genital Mutilation) is performed influence neonatal health outcomes?**  
+
+## Dataset Information  
+
+- **Source:** Somalia Demographic and Health Survey (SHDS) 2020  
+- **Population:** Ever-married women aged 12–49 years  
+- **Record Type:** Individual Recode (IR) — one record per eligible woman  
+- **Original Format:** SPSS (.sav) → Converted to CSV  
+
+### Key Data Characteristics  
+
+- **Survey Design:** Multi-stage cluster sampling with stratification  
+- **Weighting:** Population-representative weights included (V005)  
+- **Geographic Coverage:** National coverage across Somali regions  
+- **Temporal Coverage:** Births and health events in the 5 years preceding the survey  
+
+The dataset contains both:  
+
+- **Single variables:** Demographics (age, education, wealth)  
+- **Multiple variables:** Birth history, child health, contraceptive knowledge  
+
+**Suffix notation**: `$01, $02, $03…` → multiple children/events per woman  
+Example: `M70$01 = postnatal care for 1st birth`, `M70$02 = 2nd birth`  
+
+## Variables of Interest  
+
+- **FGM Practices:** Type, severity/extent, age at circumcision, performer  
+- **Neonatal Health:** Child survival, age at death, delivery outcomes  
+- **Maternal Factors:** C-section, parity, education, wealth  
+
+## Data Cleaning Workflow  
+
+### Step 1: Initial Data Inspection  
+
+- Used **questionnaires** to identify variables relevant to FGM and neonatal health  
+- Conducted **manual sorting** of raw SHDS variable lists  
+- Applied **questioning and cross-checking** against the SHDS **data dictionary** to validate coding, variable meaning, and categorical responses  
+- Loaded a sample (500–1000 rows) to inspect:  
+  - Data types (categorical, numeric, datetime)  
+  - Missing values and null-heavy columns  
+  - Consistency with survey design (weights, stratification)  
+
+### Step 2: Schema Definition & Selective Loading  
+
+- Defined memory-efficient data types (`Int64`, `category`, `string`)  
+- Loaded only relevant columns (FGM, neonatal outcomes, demographics)  
+- Applied error handling for malformed rows during CSV conversion  
+
+### Step 3: Cleaning & Standardization  
+
+- Dropped irrelevant or unused categories (e.g., missing codes not in SHDS)  
+- Normalized categorical values for consistency (e.g., standardizing FGM severity levels)  
+- Converted date strings (births, child deaths) to `datetime64[ns]`  
+- Applied **table-specific filtering** to include only:  
+  - Women with valid FGM data  
+  - Birth records with neonatal outcomes reported  
+
+### Step 4: Output  
+  
+- Each cleaned dataset corresponds to one processing notebook in this repo
