@@ -136,90 +136,107 @@ Here doesn’t seem to be a simple, clear-cut relationship you can extract direc
 
 ##### Child Survival Status (B5$01 - B5$20)
 
-Indicates whether each child was alive or dead at interview time
-Encoding: 1 = "Alive", 2 = "Dead"
-Observations: Data becomes sparse for higher birth orders (B5$15+)
-[![1-alive-or-dead.png](https://i.postimg.cc/L5h8TPr2/1-alive-or-dead.png)](https://postimg.cc/zHZNDyzc)
+- Indicates whether each child was alive or dead at interview time.
+- Encoding: 1 = "Alive", 2 = "Dead".
+- Observations: Data becomes sparse for higher birth orders (B5$15+).
+
+![1-alive-or-dead.png](https://i.postimg.cc/L681xDRM/1-alive-or-dead.png)
 
 ##### Age at Death (B6$01 - B6$20, B7$01 - B7$20)
 
-B6: Age at death with coded units (1=days, 2=months, 3=years)
-B7: Age at death in completed months
-Data Processing: Converted B6 values to days for consistency
-Issues: Some unrealistic values (>3 years) treated as outliers
-[![3-age-distribution.png](https://i.postimg.cc/9fnmf0Dk/3-age-distribution.png)](https://postimg.cc/XZ9SHVcK)
-[![2-age-correlation.png](https://i.postimg.cc/MKVvr7np/2-age-correlation.png)](https://postimg.cc/gnczx6yC)
+- B6: Age at death with coded units (1=days, 2=months, 3=years).
+- B7: Age at death in completed months.
+- Data Processing: Converted B6 values to days for consistency.
+- Issues: Some unrealistic values (>3 years) treated as outliers.
+
+![Image age corelation](https://i.postimg.cc/RFwF06Bd/2-age-correlation.png)
+
+![age-distrbution](https://i.postimg.cc/7644mKF1/3-age-distribution.png)
+
+----------
 
 #### 2. Delivery Characteristics
 
 ##### Caesarean Section Delivery (M17$01 - M17$20)
 
-Indicates C-section delivery for each birth
-Encoding: 1 = "Yes", 2 = "No"
-Purpose: Proxy indicator for delivery complications
-[![4-caesarean-vs-non-cs.png](https://i.postimg.cc/bJmQrQxh/4-caesarean-vs-non-cs.png)](https://postimg.cc/mzFc61pX)
+- Indicates C-section delivery for each birth.
+- Encoding: 1 = "Yes", 2 = "No".
+- Purpose: Proxy indicator for delivery complications.
+
+![4-ceasarean vs non cs](https://i.postimg.cc/Z514ybjM/4-caesarean-vs-non-cs.png)
+
+----------
 
 #### 3. FGM Severity Measures
 
 ##### Circumcision Status (G102)
 
-Whether respondent has been circumcised
-Encoding: 1 = "Yes", 2 = "No"
-Finding: High prevalence of FGM among respondents
-[![5-respondent-cirumcisin.png](https://i.postimg.cc/sxBZ2bfY/5-respondent-cirumcisin.png)](https://postimg.cc/jnbjgg72)
+- Whether respondent has been circumcised.
+- Encoding: 1 = "Yes", 2 = "No".
+- Finding: High prevalence of FGM among respondents.
+
+![5-respondent-cirumcisin.png](https://i.postimg.cc/VLkYxHdD/5-respondent-cirumcisin.png)
 
 ##### Type of Circumcision (G102A) - Primary Severity Indicator
 
 Classification of FGM type
+
 Categories:
 
-1 = Sunni
-2 = Intermediate
-3 = Pharaonic
-4 = Don't Know
-5 = Other
+1 = Sunni  
+2 = Intermediate  
+3 = Pharaonic  
+4 = Don't Know  
+5 = Other  
+Key Observation: Pharaonic type appears common in the dataset.
 
-Key Observation: Pharaonic type appears common in the dataset
-[![6-types-of-circumstion.png](https://i.postimg.cc/pTm62Xjq/6-types-of-circumstion.png)](https://postimg.cc/zb1j7N0g)
+![6-types-of-circumstion.png](https://i.postimg.cc/c4ks0M3Z/6-types-of-circumstion.png)
 
 ##### Procedure Details (G103 - G105)
 
-G103: Flesh removed from genital area (1 = "Yes")
-G104: Genital area just nicked without removing flesh (1 = "Yes")
-G105: Genital area sewn closed (1 = "Yes")
-Purpose: Provides specific procedure information to assess severity
-[![7-disterbution-of-circ.png](https://i.postimg.cc/Zqt89bXw/7-disterbution-of-circ.png)](https://postimg.cc/pmCh4HWj)
+- G103: Flesh removed from genital area (1 = "Yes").
+- G104: Genital area just nicked without removing flesh (1 = "Yes").
+- G105: Genital area sewn closed (1 = "Yes").
+- Purpose: Provides specific procedure information to assess severity.
+
+![7-disterbution-of-circ.png](https://i.postimg.cc/YC4t9GNF/7-disterbution-of-circ.png)
 
 ##### Age at Circumcision (G106)
 
-Age when FGM was performed
-Special Codes: 95 = "Baby", 98 = "Don't Know"
-Format: Years for numeric values
-[![8-age-of-circum.png](https://i.postimg.cc/jjbfx8J9/8-age-of-circum.png)](https://postimg.cc/75KhXn9M)
+- Age when FGM was performed.
+- Special Codes: 95 = "Baby", 98 = "Don't Know".
+- Format: Years for numeric values.
+
+![8-age-of-circum.png](https://i.postimg.cc/Fzs4Q7s7/8-age-of-circum.png)
 
 ##### Practitioner Type (G107)
 
-Who performed the circumcision procedure
-Categories: Traditional vs. medical practitioners (specific mapping needed)
-[![10-who-preformed-circumcision.png](https://i.postimg.cc/0Nhy5j3N/10-who-preformed-circumcision.png)](https://postimg.cc/gwqWNzG9)
+- Who performed the circumcision procedure.
+- Categories: Traditional vs. medical practitioners (specific mapping needed).
+
+![10-who-preformed-circumcision.png](https://i.postimg.cc/ZYVmxFV3/10-who-preformed-circumcision.png)
+
+----------
 
 #### 4. Maternal Demographics
 
 ##### Number of Living Children (V218)
 
-Total living children at time of interview
-Purpose: Provides context on maternal parity
-[![9-no-of-living-children.png](https://i.postimg.cc/MTGvHgZs/9-no-of-living-children.png)](https://postimg.cc/jWGskg7N)
+- Total living children at time of interview.
+- Purpose: Provides context on maternal parity.
+
+![9-no-of-living-children.png](https://i.postimg.cc/C14gtj03/9-no-of-living-children.png)
 
 Data Quality Assessment
 Missing Data Patterns
 
-[![11-heatmap.png](https://i.postimg.cc/TYkGYh5X/11-heatmap.png)](https://postimg.cc/1fNbvmKW)
+![11-heatmap.png](https://i.postimg.cc/kXGm16pH/11-heatmap.png)
 
 Higher birth orders (15+ children) show expected sparsity
 Some respondents have incomplete FGM procedure details
 Age at death variables show missing values for surviving children (expected)
-[![12-disturbition-of-no-of-living-children.png](https://i.postimg.cc/1587wzYS/12-disturbition-of-no-of-living-children.png)](https://postimg.cc/RNzTzvBp)
+
+![12-disturbition-of-no-of-living-children.png](https://i.postimg.cc/nrRtVpCT/12-disturbition-of-no-of-living-children.png)
 
 Data Integrity Issues
 
