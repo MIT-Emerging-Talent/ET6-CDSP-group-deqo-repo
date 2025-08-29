@@ -188,7 +188,7 @@ Categories:
 3 = Pharaonic  
 4 = Don't Know  
 5 = Other  
-Key Observation: Pharaonic type appears common in the dataset. 
+Key Observation: Pharaonic type appears common in the dataset.
 
 ![6-types-of-circumstion.png](https://i.postimg.cc/c4ks0M3Z/6-types-of-circumstion.png)
 
