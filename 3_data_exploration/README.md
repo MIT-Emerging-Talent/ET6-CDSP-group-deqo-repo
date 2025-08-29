@@ -140,7 +140,7 @@ Here doesn’t seem to be a simple, clear-cut relationship you can extract direc
 - Encoding: 1 = "Alive", 2 = "Dead".
 - Observations: Data becomes sparse for higher birth orders (B5$15+).
 
-![1-alive-or-dead.png]https://i.postimg.cc/L681xDRM/1-alive-or-dead.png
+![1-alive-or-dead.png](https://i.postimg.cc/L681xDRM/1-alive-or-dead.png)
 
 ##### Age at Death (B6$01 - B6$20, B7$01 - B7$20)
 
@@ -175,7 +175,7 @@ Here doesn’t seem to be a simple, clear-cut relationship you can extract direc
 - Encoding: 1 = "Yes", 2 = "No".
 - Finding: High prevalence of FGM among respondents.
 
-![5-respondent-cirumcisin.png]https://i.postimg.cc/VLkYxHdD/5-respondent-cirumcisin.png
+![5-respondent-cirumcisin.png](https://i.postimg.cc/VLkYxHdD/5-respondent-cirumcisin.png)
 
 ##### Type of Circumcision (G102A) - Primary Severity Indicator
 
@@ -190,7 +190,7 @@ Categories:
 5 = Other  
 Key Observation: Pharaonic type appears common in the dataset. 
 
-![6-types-of-circumstion.png]https://i.postimg.cc/c4ks0M3Z/6-types-of-circumstion.png
+![6-types-of-circumstion.png](https://i.postimg.cc/c4ks0M3Z/6-types-of-circumstion.png)
 
 ##### Procedure Details (G103 - G105)
 
@@ -199,7 +199,7 @@ Key Observation: Pharaonic type appears common in the dataset.
 - G105: Genital area sewn closed (1 = "Yes").
 - Purpose: Provides specific procedure information to assess severity.
 
-![7-disterbution-of-circ.png]https://i.postimg.cc/YC4t9GNF/7-disterbution-of-circ.png
+![7-disterbution-of-circ.png](https://i.postimg.cc/YC4t9GNF/7-disterbution-of-circ.png)
 
 ##### Age at Circumcision (G106)
 
@@ -207,14 +207,14 @@ Key Observation: Pharaonic type appears common in the dataset.
 - Special Codes: 95 = "Baby", 98 = "Don't Know".
 - Format: Years for numeric values.
 
-![8-age-of-circum.png]https://i.postimg.cc/Fzs4Q7s7/8-age-of-circum.png
+![8-age-of-circum.png](https://i.postimg.cc/Fzs4Q7s7/8-age-of-circum.png)
 
 ##### Practitioner Type (G107)
 
 - Who performed the circumcision procedure.
 - Categories: Traditional vs. medical practitioners (specific mapping needed).
 
-![10-who-preformed-circumcision.png]https://i.postimg.cc/C14gtj03/9-no-of-living-children.png
+![10-who-preformed-circumcision.png](https://i.postimg.cc/ZYVmxFV3/10-who-preformed-circumcision.png)
 
 ----------
 
@@ -225,18 +225,18 @@ Key Observation: Pharaonic type appears common in the dataset.
 - Total living children at time of interview.
 - Purpose: Provides context on maternal parity.
 
-![9-no-of-living-children.png]https://i.postimg.cc/C14gtj03/9-no-of-living-children.png
+![9-no-of-living-children.png](https://i.postimg.cc/C14gtj03/9-no-of-living-children.png)
 
 Data Quality Assessment
 Missing Data Patterns
 
-![11-heatmap.png]https://i.postimg.cc/kXGm16pH/11-heatmap.png
+![11-heatmap.png](https://i.postimg.cc/kXGm16pH/11-heatmap.png)
 
 Higher birth orders (15+ children) show expected sparsity
 Some respondents have incomplete FGM procedure details
 Age at death variables show missing values for surviving children (expected)
 
-![12-disturbition-of-no-of-living-children.png]https://i.postimg.cc/nrRtVpCT/12-disturbition-of-no-of-living-children.png
+![12-disturbition-of-no-of-living-children.png](https://i.postimg.cc/nrRtVpCT/12-disturbition-of-no-of-living-children.png)
 
 Data Integrity Issues
 
