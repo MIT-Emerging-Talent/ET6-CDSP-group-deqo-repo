@@ -23,8 +23,9 @@ but here you’ll find the presentation we used to pitch the idea.
 
 ## 🎥 Presentation Slides
 
-You can view the slides here:  
-[🔗 View on Canva](https://www.canva.com/design/DAGwXLL40cw/1o3BLSlVCUIyOU2MK_JaaQ/edit?utm_content=DAGwXLL40cw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)  
+You can view the slides here:
+<!-- markdownlint-disable-next-line MD013 -->  
+[🔗 View on Canva](https://www.canva.com/design/DAGwXLL40cw/1o3BLSlVCUIyOU2MK_JaaQ/edit?utm_content=DAGwXLL40cw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 (Backup PDF version also included in this folder for quick access.)
 
