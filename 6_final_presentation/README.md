@@ -17,7 +17,7 @@ engaging. So we designed a comic book as a tool to share stories, spread
 awareness, and spark conversations in communities.  
 
 <!-- markdownlint-disable-next-line MD013 -->
-👉 The comic itself lives in the [communication/](C:\Users\Owner\Desktop\MIT_CDS\ET6-CDSP-group-16-repo\ET6-CDSP-group-deqo-repo\5_communication_strategy) folder,
+👉 The comic itself lives in the [communication/](../5_communication_strategy/) folder,
 but here you’ll find the presentation we used to pitch the idea.  
 
 ---
@@ -29,7 +29,7 @@ You can view the slides here:
 [🔗 View on Canva](https://www.canva.com/design/DAGwXLL40cw/1o3BLSlVCUIyOU2MK_JaaQ/edit?utm_content=DAGwXLL40cw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 <!-- markdownlint-disable-next-line MD013 -->
-(Backup [PDF version](C:\Users\Owner\Desktop\MIT_CDS\ET6-CDSP-group-16-repo\ET6-CDSP-group-deqo-repo\6_final_presentation\Presentation.pdf) also included in this folder for quick access.)
+(Backup [PDF version](Presentation.pdf) also included in this folder for quick access.)
 
 ---
 
