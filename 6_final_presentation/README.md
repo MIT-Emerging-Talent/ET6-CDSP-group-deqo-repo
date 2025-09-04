@@ -1,6 +1,6 @@
 # Final Presentation – Group Deqo  
 
-This is the final presentation we prepared for this MIT Collaborative Data
+This is the final presentation we prepared for MIT Collaborative Data
 Science Project, presented on Thursday, 28 August 2025.
 
 ## Quick Summary  
@@ -134,22 +134,5 @@ Potential next steps:
 - **Data Analysis & Research:** Gathering and synthesizing statistics on FGM.  
 - **Storytelling & Communication:** Creating *The Broken Cycle* comic.  
 - **Collaboration:** Effective teamwork, brainstorming, and division of tasks.  
-- **Advocacy:** Transforming data and facts into actionable recommendations.  
-
----
-
-👥 **Team Deqo**  
-
-1. Abdulrahman Alsir
-2. Ana Isabel Murillo
-3. Aseel AbuKmail
-4. Ava Abdullah
-5. Hector Colmenares
-6. Martha Nyekanga
-7. Mohamed Makki
-8. Muhammet Isik
-9. Reem Osama
-10. Rafaa Ali
-11. Safaa Osman
-12. Safia Abdalla
-13. Solara Hamza
+- **Advocacy:** Transforming data and facts into actionable recommendations.
+  
