@@ -1,25 +1,68 @@
-# Final Presentation – Group Deqo  
+# Final Presentation - Group Deqo
 
-This is the final presentation we prepared for MIT Collaborative Data
-Science Project, presented on Thursday, 28 August 2025.
+## Presentation Focus
 
-## Project Vision
+Building on our comprehensive analysis of the Somalia Health and Demographic
+Survey (SHDS) 2020 dataset, the focus of the presentation centers on maternal
+and child health, particularly the quantified impact of Female Genital Mutilation
+(FGM) on newborn mortality through rigorous statistical modeling.
 
-*The Broken Cycle* isn't just our research output, it's our primary vehicle
-for change. This comic book transforms complex FGM data into accessible visual
- narratives that can reach communities where traditional academic reports cannot.
+## Script Summery
 
-### Presentation Script
+Somalia suffers from alarming health crises, including the worst child survival
+rate, highest maternal deaths, and highest FGM prevalence worldwide.
+The research highlights the types of FGM, especially type III (infibulation),
+which correlates with higher cesarean section rates, though most Somali women
+give birth at home, leading to significantly higher newborn mortality. Child
+deaths in Somalia cluster in specific regions, and paradoxically, children
+seeking healthcare show higher mortality, possibly due to late-stage care or
+data reflecting only those who access facilities. Awareness is identified as the
+primary barrier to change given Somalia’s high illiteracy and limited internet
+access. To address this, the team created a comic book using expressive imagery
+to inform all literacy levels about alternatives to FGM, aiming to spark
+reflection rather than force change. The project concludes with a video teaser
+illustrating the personal story of a Somali woman shaped by FGM, emphasizing
+the cycle of trauma and the potential for breaking it. Feedback highlighted the
+importance of framing maternal and child mortality together and noted that
+behavior change is a gradual process starting with awareness.
 
-*Key talking points:*
+## Key Insights
 
-- "Traditional reports don't reach the communities that need them most"
-- "Our comic transforms complex data into conversations that can save lives"
-- "This is what happens when data science meets storytelling"
+- 🚼 **FGM’s direct impact on newborn mortality:** Infibulation physically
+obstructs the birth canal, increasing cesarian section risks; however, the
+predominance of home births obscures the true scale of complications and
+mortality, underscoring the critical need for improved maternal care access and reporting.
+
+- 🌍 **Spatial clustering of child deaths reveals systemic inequalities:** The
+concentration of high mortality areas suggests localized factors such as poor
+health infrastructure, access barriers, or socio-cultural practices, which must
+be targeted by interventions rather than a one-size-fits-all approach.
+
+- 📈 **Paradox of higher mortality among children seeking care:** This anomaly
+likely reflects delayed or inadequate treatment, or the fact that sicker
+children are more likely to access clinics, highlighting the need to improve
+early health intervention and community outreach.
+
+- 📵 **Barriers to awareness and education:** With limited literacy and internet
+access, traditional digital campaigns may fail, requiring culturally appropriate
+, accessible communication forms like comics to initiate behavior change.
+
+- 🧩 **Behavior change as a multi-step process:** Awareness is only the first
+necessary step; changing entrenched cultural norms around FGM requires sustained
+community engagement and broad support, including addressing influential figures
+such as mothers-in-law
+
+## Data Science Innovation: Evidence-Based Health Communication
+
+The Broken Cycle isn't just our research output, it's our primary vehicle for change.
+This comic book transforms complex FGM data into accessible visual narratives
+that can reach communities where traditional academic reports cannot.
 
 ## Final Presentation Materials  
 
 🖼️ [**Final Presentation Slides**:] (./Presentation.pdf)
+
+🎥 [**Presentation Recording**](https://youtu.be/LJJLY6NtT3s)
 
 📖 [**The Broken Cycle Comic Book**:] (./TheBrokenCycle.pdf)
 
@@ -34,34 +77,6 @@ for change. This comic book transforms complex FGM data into accessible visual
 ![Panel 3](./images/panel_3.png)  
 *Breaking the cycle: Amina chooses a different path for her daughter.*
 
-### Comic Goals & Purpose
-
-- **Break the silence**: Create a conversation starter for families and communities
-- **Challenge myths**: Address cultural misconceptions through respectful storytelling
-- **Inspire action**: Show that change is possible through Amina's three-generation
-journey
-- **Bridge gaps**: Connect data-driven research with emotional, human experiences
-- **Empower survivors**: Validate experiences while pointing toward healing and choice
-
-### Target Impact Beyond Presentation
-
-The comic is designed for:
-
-- **Healthcare providers** - as a patient education tool
-- **Community leaders** - for respectful dialogue facilitation
-- **Educational programs** - age-appropriate awareness building
-- **Support networks** - validation and healing resource
-- **Policy advocates** - compelling evidence for systemic change
-
-## What Makes Our Approach Unique
-
-While other projects may separate their research from their communication
-strategy, **our comic IS our research method**. We didn't just analyze FGM
- data, we transformed it into a tool that can actually create the change we're
- studying. The comic represents both our findings and our solution, making our
-  presentation a demonstration of research in action.
-
 ---
-
-*This presentation will showcase how creative methodologies can amplify the
+*This should showcase how creative methodologies can amplify the
  impact of collaborative data science beyond academic circles.*
