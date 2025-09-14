@@ -1,39 +1,82 @@
-# Maternal & Child Healthcare in Somalia - Final Presentation
+# Final Presentation - Group Deqo
 
-![Presentation Cover](https://github.com/user-attachments/assets/8d70c88f-57a3-4a0d-80e0-16e29bd125cc)
+## Presentation Focus
 
-This is the final presentation we prepared for this MIT Collaborative Data
-Science Project, presented on Thursday, 28 August 2025.  
-We looked at the challenges of maternal and children’s healthcare in Somalia,
-with a focus on how FGM (Female Genital Mutilation) impacts women’s health and
-child survival.  
+Building on our comprehensive analysis of the Somalia Health and Demographic
+Survey (SHDS) 2020 dataset, the focus of the presentation centers on maternal
+and child health, particularly the quantified impact of Female Genital Mutilation
+(FGM) on newborn mortality through rigorous statistical modeling.
+
+## Script Summery
+
+Somalia suffers from alarming health crises, including the worst child survival
+rate, highest maternal deaths, and highest FGM prevalence worldwide.
+The research highlights the types of FGM, especially type III (infibulation),
+which correlates with higher cesarean section rates, though most Somali women
+give birth at home, leading to significantly higher newborn mortality. Child
+deaths in Somalia cluster in specific regions, and paradoxically, children
+seeking healthcare show higher mortality, possibly due to late-stage care or
+data reflecting only those who access facilities. Awareness is identified as the
+primary barrier to change given Somalia’s high illiteracy and limited internet
+access. To address this, the team created a comic book using expressive imagery
+to inform all literacy levels about alternatives to FGM, aiming to spark
+reflection rather than force change. The project concludes with a video teaser
+illustrating the personal story of a Somali woman shaped by FGM, emphasizing
+the cycle of trauma and the potential for breaking it. Feedback highlighted the
+importance of framing maternal and child mortality together and noted that
+behavior change is a gradual process starting with awareness.
+
+## Key Insights
+
+- 🚼 **FGM’s direct impact on newborn mortality:** Infibulation physically
+obstructs the birth canal, increasing cesarian section risks; however, the
+predominance of home births obscures the true scale of complications and
+mortality, underscoring the critical need for improved maternal care access and reporting.
+
+- 🌍 **Spatial clustering of child deaths reveals systemic inequalities:** The
+concentration of high mortality areas suggests localized factors such as poor
+health infrastructure, access barriers, or socio-cultural practices, which must
+be targeted by interventions rather than a one-size-fits-all approach.
+
+- 📈 **Paradox of higher mortality among children seeking care:** This anomaly
+likely reflects delayed or inadequate treatment, or the fact that sicker
+children are more likely to access clinics, highlighting the need to improve
+early health intervention and community outreach.
+
+- 📵 **Barriers to awareness and education:** With limited literacy and internet
+access, traditional digital campaigns may fail, requiring culturally appropriate
+, accessible communication forms like comics to initiate behavior change.
+
+- 🧩 **Behavior change as a multi-step process:** Awareness is only the first
+necessary step; changing entrenched cultural norms around FGM requires sustained
+community engagement and broad support, including addressing influential figures
+such as mothers-in-law
+
+## Data Science Innovation: Evidence-Based Health Communication
+
+The Broken Cycle isn't just our research output, it's our primary vehicle for change.
+This comic book transforms complex FGM data into accessible visual narratives
+that can reach communities where traditional academic reports cannot.
+
+## Final Presentation Materials  
+
+🖼️ [**Final Presentation Slides**:] (./Presentation.pdf)
+
+🎥 [**Presentation Recording**](https://youtu.be/LJJLY6NtT3s)
+
+📖 [**The Broken Cycle Comic Book**:] (./TheBrokenCycle.pdf)
+
+## Comic Highlight  
+
+![Panel 1](./images/panel_1.png)  
+*Amina’s early childhood, where the cycle of FGM begins.*  
+
+![Panel 2](./images/panel_2.png)  
+*The painful teenage years and lifelong health consequences.*  
+
+![Panel 3](./images/panel_3.png)  
+*Breaking the cycle: Amina chooses a different path for her daughter.*
 
 ---
-
-## 💡 Our Idea
-
-Instead of just throwing facts, we wanted to make knowledge accessible and
-engaging. So we designed a comic book as a tool to share stories, spread
-awareness, and spark conversations in communities.  
-
-<!-- markdownlint-disable-next-line MD013 -->
-👉 The comic itself lives in the [communication/](../5_communication_strategy/) folder,
-but here you’ll find the presentation we used to pitch the idea.  
-
----
-
-## 🎥 Presentation Slides
-
-You can view the slides here:
-<!-- markdownlint-disable-next-line MD013 -->  
-[🔗 View on Canva](https://www.canva.com/design/DAGwXLL40cw/1o3BLSlVCUIyOU2MK_JaaQ/edit?utm_content=DAGwXLL40cw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
-
-<!-- markdownlint-disable-next-line MD013 -->
-(Backup [PDF version](Presentation.pdf) also included in this folder for quick access.)
-
----
-
-## 🙌 Acknowledgements
-
-Created as part of the MIT Emerging Talent Program, with contributions from our
-amazing team and mentors.
+*This should showcase how creative methodologies can amplify the
+ impact of collaborative data science beyond academic circles.*
