@@ -61,7 +61,7 @@ the core questions.
 
 ## Individual Retrospectives
 
-## Ava
+### Ava
 
 > I dove into my focus question with full enthusiasm, thinking I
 could conquer it solo and beat the clock. After a while,

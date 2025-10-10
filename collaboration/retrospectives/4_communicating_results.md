@@ -76,7 +76,7 @@ requiring us to think of creative workarounds.
 
 ## Individual Retrospectives
 
-## Ava
+### Ava
 
 > Seeing our strategy take shape, and knowing it could actually save lives made
  every late night worth it. Life tried to slow me down, but the

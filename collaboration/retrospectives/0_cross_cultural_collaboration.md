@@ -46,8 +46,6 @@ Apparently, one run wasn't enough... So we hit replay! Everyone got to run the s
 
 ## Individual Retrospectives
 
-### Name
-
 ### Ava
 
 > Repeating the process felt somewhat repetitive at first. However, the opportunity to engage with new colleagues from the other group, and to reconnect with my own team, transformed the experience into something genuinely rewarding.

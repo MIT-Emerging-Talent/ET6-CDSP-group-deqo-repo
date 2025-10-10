@@ -73,8 +73,6 @@ and converged on a shared problem definition before moving outward from there
 
 ## Individual Retrospectives
 
-### Name
-
 <!-- reflect on your contributions, challenges and progress in this milestone -->
 
 ## Ava
