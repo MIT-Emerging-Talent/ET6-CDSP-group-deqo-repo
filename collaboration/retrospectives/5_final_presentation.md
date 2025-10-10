@@ -6,7 +6,7 @@
 
 Presenting our findings was a rare moment where months of effort
 crystallized into something tangible. The audience didn't just see our
-work—they felt it. Their surprise, engagement, and curiosity reminded us
+work, they felt it. Their surprise, engagement, and curiosity reminded us
 why we did this project in the first place.
 
 ## The Moment That Stuck
