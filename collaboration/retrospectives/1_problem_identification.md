@@ -71,7 +71,7 @@ and converged on a shared problem definition before moving outward from there
 
 ---
 
-## Individual Rerospectives
+## Individual Retrospectives
 
 ### Name
 

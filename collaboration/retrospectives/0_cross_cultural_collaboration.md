@@ -44,7 +44,7 @@ Apparently, one run wasn't enough... So we hit replay! Everyone got to run the s
 
 ---
 
-## Individual Rerospectives
+## Individual Retrospectives
 
 ### Name
 
