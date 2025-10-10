@@ -9,8 +9,6 @@ crystallized into something tangible. The audience didn't just see our
 work—they felt it. Their surprise, engagement, and curiosity reminded us
 why we did this project in the first place.
 
----
-
 ## The Moment That Stuck
 
 - Solara delivering the presentation hit differently. Every slide, every point
@@ -18,12 +16,6 @@ why we did this project in the first place.
 
 - That moment reminded us that our work wasn’t just data or reports...
 it had real meaning, reaching beyond our team.
-
----
-
-## Stop Doing
-
-- None
 
 ## Continue Doing
 
@@ -40,8 +32,6 @@ it had real meaning, reaching beyond our team.
 
 - Presentations are as much about human connection as about facts.
 - Moments of genuine impact often arrive when you least expect them.
-
----
 
 ## Individual Retrospectives
 

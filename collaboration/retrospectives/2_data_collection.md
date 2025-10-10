@@ -10,8 +10,6 @@ ourselves on?
 It felt like being in quicksand... every time we thought we'd settled,
 new questions pulled us back down.
 
----
-
 ## Lessons in Focus
 
 The real challenge was breaking free from waiting.
@@ -19,8 +17,6 @@ Once we stopped holding out for the perfect dataset and decided to
 build on what we had,
 the fog began to clear. It was less about “what's missing” and more about
 “what can we do now.”
-
----
 
 ## Stop Doing
 
@@ -40,8 +36,6 @@ the fog began to clear. It was less about “what's missing” and more about
 ## Lessons Learned
 
 - Sometimes the bravest move is to stop searching and just commit.
-
----
 
 ## Strategy vs. Board
 
@@ -63,5 +57,3 @@ became our main way forward.
 ### Or remove extra steps?
 
 - Yes. We had to let go of waiting and trim back scattered dataset explorations.
-
----

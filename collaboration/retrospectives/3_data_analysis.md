@@ -8,16 +8,12 @@ This was our turning point. Rather than panicking, the group rallied.
 We pooled our energy, re-focused on the remaining questions,
 and somehow turned chaos into coordinated teamwork.
 
----
-
 ## How the Analysis Flowed
 
 We started with three focus questions, each promising a deep dive into our dataset.
 As we explored, one question gradually fell off the radar because not all team
 members were able to contribute equally. Instead of forcing it, we
 let it go and concentrated our energy on the other two questions.
-
----
 
 ## Stop Doing
 
@@ -35,8 +31,6 @@ let it go and concentrated our energy on the other two questions.
 ## Lessons Learned
 
 - Null or unexpected results are valuable when properly analyzed and recorded.
-
----
 
 ## Strategy vs. Board
 
@@ -57,15 +51,13 @@ Extra uncertainty documentation and additional visuals to clarify findings.
 Overly ambitious methods and unnecessary explorations that didn't serve
 the core questions.
 
----
-
 ## Individual Retrospectives
 
 ### Ava
 
 > I dove into my focus question with full enthusiasm, thinking I
 could conquer it solo and beat the clock. After a while,
-reality ~~and life circumstances~~decided to throw a plot twist my way.
+reality *~and life circumstances~* decided to throw a plot twist my way.
 In the end, I had to reluctantly drop the question due to time constraints.
 
 <!-- reflect on your contributions, challenges and progress in this milestone -->

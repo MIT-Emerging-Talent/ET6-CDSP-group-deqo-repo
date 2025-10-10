@@ -9,8 +9,6 @@ ways to make our findings resonate beyond numbers and charts.
 The team’s enthusiasm was contagious... we felt like a group
 of data storytellers on a mission.
 
----
-
 ## Turning Numbers into Action
 
 We started with a clear mission: FGM awareness and actionable advocacy.
@@ -31,10 +29,6 @@ We honed the core message:
 The group came together like never before. Ideas bounced,
 arguments sparked (in a good way), and we pushed each other to make our
 communication both scientifically grounded and emotionally compelling.
-
----
-
-## Stop Doing
 
 ## Continue Doing
 
@@ -58,8 +52,6 @@ clever multi-channel strategies can still reach audiences.
 - Collaboration and trust allow us to take risks in messaging that might
   have felt impossible individually.
 
----
-
 ## Strategy vs. Board
 
 ### What parts of your plan went as expected?
@@ -71,8 +63,6 @@ and designed a comprehensive communication artifact.
 
 Some channels (like rural internet outreach) have limited reach,
 requiring us to think of creative workarounds.
-
----
 
 ## Individual Retrospectives
 
